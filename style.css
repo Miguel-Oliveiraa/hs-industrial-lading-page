@@ -1,0 +1,66 @@
+/* FONTES */
+/* Inter, wight 800 - "font-family: 'Inter', sans-serif;" */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+/* Poppins, weight 300, 400 - "font-family: 'Poppins', sans-serif;"*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+/* Latto, weight 700 - "font-family: 'Lato', sans-serif;" */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+:root {
+  --background-color: #fbfcfe;
+  --dark-blue: #3734c3;
+  --blue: #085a8a;
+  --light-blue: #d9e6ee;
+  --black: #1c1c1c;
+  --gray: #c4c4c4;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+  background-color: var(--background-color);
+}
+li,
+a,
+button {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--gray);
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 12rem;
+}
+.logo {
+  cursor: pointer;
+}
+.navLinks {
+  list-style: none;
+}
+.navLinks li {
+  display: inline-block;
+  padding: 0 2rem;
+}
+.navLinks li a {
+  transition: all 0.3 ease 0s;
+}
+.navLinks li a:hover {
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+button {
+  color: #fff;
+  padding: 0.9rem 1.5rem;
+  background-color: var(--dark-blue);
+  border: none;
+  border-radius: 1rem;
+}
+button:hover {
+  opacity: 0.8;
+}
