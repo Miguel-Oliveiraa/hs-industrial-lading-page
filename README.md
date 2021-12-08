@@ -1,4 +1,6 @@
 # hs-industrial
 
 Front-end de website para marca fictícia de serviços industriais
-<img scr="./assets/web.svg"></img>
+<h1>
+<img src='./assets/Web.svg'></img>
+</h1>
