@@ -35,7 +35,8 @@ h1 {
   font-family: "Inter", sans-serif;
   font-weight: 800;
 }
-p {
+p,
+h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
@@ -91,5 +92,31 @@ button:hover {
   margin-bottom: 2rem;
 }
 .mainBG {
-  width: 50%;
+  width: 55rem;
+}
+.clientes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 12rem;
+}
+.clientesBG {
+  width: 44rem;
+}
+.clientesText {
+  margin-left: 10%;
+  margin-top: -10rem;
+}
+.clientesTitle {
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+}
+.clientesSubTitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.clientesHeadline {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
 }
