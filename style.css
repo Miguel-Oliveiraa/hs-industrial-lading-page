@@ -78,7 +78,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem 12rem;
+  padding: 3rem 12rem;
 }
 .mainText {
   margin-top: -4rem;
@@ -98,7 +98,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem 12rem;
+  padding: 3rem 12rem;
 }
 .clientesBG {
   width: 44rem;
