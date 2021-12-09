@@ -74,7 +74,8 @@ button {
 button:hover {
   opacity: 0.8;
 }
-.inicio {
+.inicio,
+.clientes {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,17 +95,11 @@ button:hover {
 .mainBG {
   width: 55rem;
 }
-.clientes {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem 12rem;
-}
 .clientesBG {
   width: 44rem;
 }
 .clientesText {
-  margin-left: 10%;
+  margin-left: 10rem;
   margin-top: -10rem;
 }
 .clientesTitle {
