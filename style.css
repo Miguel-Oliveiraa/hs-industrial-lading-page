@@ -119,3 +119,14 @@ button:hover {
   text-align: center;
   padding: 3rem 12rem;
 }
+.localTitle {
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+}
+.localSubTitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.localBG {
+  width: 100%;
+}
