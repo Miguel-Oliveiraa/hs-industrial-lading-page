@@ -80,6 +80,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 12rem;
+  gap: 7.3rem;
 }
 .mainText {
   margin-top: -4rem;
@@ -99,7 +100,6 @@ button:hover {
   width: 44rem;
 }
 .clientesText {
-  margin-left: 10rem;
   margin-top: -10rem;
 }
 .clientesTitle {
