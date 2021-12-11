@@ -118,6 +118,7 @@ button:hover {
 .ondeEstamos {
   text-align: center;
   padding: 3rem 12rem;
+  margin-bottom: 2rem;
 }
 .localTitle {
   font-size: 4.8rem;
@@ -128,5 +129,31 @@ button:hover {
   margin-bottom: 2rem;
 }
 .localBG {
-  width: 100%;
+  width: 80%;
+}
+.contato {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 12rem;
+  gap: 7.3rem;
+}
+.contatoTitle {
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+}
+.formularioSubTitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.boldEffect {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+.numeroContato,
+.emailContato {
+  display: flex;
+}
+.mapaGoogle {
+  width: 40rem;
+  height: 30rem;
 }
