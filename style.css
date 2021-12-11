@@ -153,3 +153,7 @@ button:hover {
 .emailContato {
   display: flex;
 }
+.mapaGoogle {
+  width: 40rem;
+  height: 30rem;
+}
