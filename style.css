@@ -139,7 +139,7 @@ button:hover {
 }
 .contatoTitle {
   font-size: 4.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .formularioSubTitle {
   font-size: 2rem;
@@ -151,9 +151,12 @@ button:hover {
 }
 .numeroContato,
 .emailContato {
+  margin-top: 3rem;
   display: flex;
+  gap: 2rem;
 }
 .mapaGoogle {
+  margin-top: 3rem;
   width: 40rem;
   height: 30rem;
 }
