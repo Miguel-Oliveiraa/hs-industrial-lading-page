@@ -160,3 +160,18 @@ button:hover {
   width: 40rem;
   height: 30rem;
 }
+.nomeForm,
+.assuntoForm,
+.emailForm {
+  width: 18rem;
+  border: none;
+  border-bottom: solid 0.2rem var(--black);
+  margin-bottom: 1rem;
+}
+.mensagemForm {
+  width: 437px;
+  height: 166px;
+  padding: 0.7rem;
+  border: solid 0.2rem var(--black);
+  border-radius: 1rem;
+}
