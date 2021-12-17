@@ -144,6 +144,7 @@ button:hover {
 .formularioSubTitle {
   font-size: 2rem;
   margin-bottom: 2rem;
+  margin-top: 1.5rem;
 }
 .boldEffect {
   font-family: "Inter", sans-serif;
@@ -167,6 +168,15 @@ button:hover {
   border: none;
   border-bottom: solid 0.2rem var(--black);
   margin-bottom: 1rem;
+  padding: 0.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.nomeForm:focus,
+.assuntoForm:focus,
+.emailForm:focus,
+.mensagemForm:focus {
+  outline: none;
 }
 .mensagemForm {
   width: 437px;
@@ -174,4 +184,7 @@ button:hover {
   padding: 0.7rem;
   border: solid 0.2rem var(--black);
   border-radius: 1rem;
+  resize: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
