@@ -1,8 +1,6 @@
 
-<p align="center">
-          
-# HS INDUSTRIAL
-          
+<p align="center">      
+HS INDUSTRIAL      
 </p>
 
 <p align="center">
