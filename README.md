@@ -1,4 +1,7 @@
-# HS Industrial
+
+<p align="center>
+# HS INDUSTRIAL
+</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
