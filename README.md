@@ -1,5 +1,5 @@
 <h1 align="center">
-  <p>HS INDUSTRIAL</p>
+  <img src='./assets/logo.png'/>
 </h1>
 
 <p align="center">
