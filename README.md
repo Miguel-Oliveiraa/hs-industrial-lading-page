@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-HS Industrial é uma empresa de Recife de serviços industriais. :dog2:
+HS Industrial é uma empresa de Recife de serviços industriais. 🔧
 
 ## 🔖 Layout
 <img src='./assets/Web.svg'></img>
