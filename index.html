@@ -7,6 +7,10 @@
     <title>hs industrial</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -24,10 +28,11 @@
     <main>
       <div class="inicio" id="inicio">
         <div class="mainText">
-          <h1 class="mainTitle">Soluções industriais ageis e inovadoras</h1>
+          <h1 class="mainTitle">Soluções industriais para Gas Natural</h1>
           <h2 class="mainSubTitle">
             Pensamos na melhor maneira de atender as suas necessidades
             industriais.
+            <i class="fas fa-clock"></i>
           </h2>
           <a class="botaoContato" href="#contato"
             ><button>Fale conosco</button></a
@@ -38,6 +43,72 @@
           src="./assets/maquinaIndustrial.svg"
           alt="maquinaIndustrial"
         />
+      </div>
+      <div class="servicos">
+        <h1 class="servicos__title">SERVIÇOS</h1>
+        <div>
+          <ul class="servicos__lineOne">
+            <li>
+              <div class="servicos__box">
+                <p class="badge__Text">
+                  Assistencia tecnica especializada, 24 horas
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="servicos__box">
+                <p class="badge__Text">
+                  Manutencoes preditivas, preventivas e corretivas
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="servicos__box">
+                <p class="badge__Text">
+                  Afericao e calibracao dispenseres de abastecimento
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="servicos__lineTwo">
+            <li>
+              <div class="servicos__box">
+                <p class="badge__Text">Controle Massa Especifica / densidade</p>
+              </div>
+            </li>
+            <li>
+              <div class="servicos__box">
+                <p class="badge__Text">Reteste de cilindros e PSV's</p>
+              </div>
+            </li>
+            <li>
+              <div class="servicos__box">
+                <p class="badge__Text">
+                  Teste hidroestaticos, Vasos de Pressao
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="servicos__lineThree">
+            <li>
+              <div class="servicos__box">
+                <p class="badge__Text">
+                  Infraestrutura, modificacoes e instalacoes
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="servicos__box">
+                <p class="badge__Text">Recuperacao de eletronicos</p>
+              </div>
+            </li>
+            <li>
+              <div class="servicos__box">
+                <p class="badge__Text">Demais atividades correlacionadas</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="clientes" id="clientes">
         <img
@@ -70,20 +141,21 @@
               src="./assets/telefone.svg"
               alt="iconeTelefone"
             />
-            <p class="numeroTexto">+55 81 12345-6789</p>
+            <p class="numeroTexto">+55 81 98838-4668</p>
           </a>
           <a href="" class="emailContato">
             <img class="icone" src="./assets/email.svg" alt="iconeEmail" />
-            <p class="emailTexto">contact@email.com</p>
+            <p class="emailTexto">contato@hs-ind.com.br</p>
           </a>
           <div class="mapaGoogle">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3890889090944!2d-34.87287598522006!3d-8.061735294195389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48f26183d%3A0x6a9ebfb27ba8f98d!2sPra%C3%A7a%20Rio%20Branco%20-%20Recife%2C%20PE%2C%2050030-230!5e0!3m2!1sen!2sbr!4v1639262069077!5m2!1sen!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.614573269373!2d-34.90172528564057!3d-8.038612882496553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18f8e7262497%3A0x336fe388b44cc217!2sAv.%20Conselheiro%20Rosa%20e%20Silva%2C%201460%20-%20Aflitos%2C%20Recife%20-%20PE%2C%2052050-225!5e0!3m2!1spt-BR!2sbr!4v1657293201984!5m2!1spt-BR!2sbr"
               width="100%"
               height="100%"
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
@@ -93,7 +165,7 @@
             podemos lhe ajudar
           </h2>
           <form
-            action="https://formsubmit.co/miguellgomes64@gmail.com"
+            action="https://formsubmit.co/contato@hs-ind.com.br"
             method="POST"
           >
             <input type="hidden" name="_next" value="http://127.0.0.1:5500/" />
@@ -128,7 +200,7 @@
               rows="10"
             ></textarea
             ><br /><br />
-            <button class="botaoContato" type="submit">enviar</button>
+            <button class="botaoEnviar" type="submit">enviar</button>
           </form>
         </div>
       </div>

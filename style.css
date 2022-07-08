@@ -49,6 +49,7 @@ header {
 .logo {
   cursor: pointer;
 }
+
 .navLinks {
   list-style: none;
 }
@@ -187,4 +188,163 @@ button:hover {
   resize: none;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+}
+
+.servicos {
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 12rem;
+  gap: 7.3rem;
+}
+
+.servicos__title {
+  text-align: center;
+}
+
+.servicos__lineOne,
+.servicos__lineTwo,
+.servicos__lineThree {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.servicos__box {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  border: 2px solid var(--black);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.servicos__title {
+  font-size: 4.8rem;
+  margin-bottom: 4rem;
+}
+
+.badge__Text {
+  color: var(--black);
+  font-size: 2rem;
+}
+
+@media (max-width: 858px) {
+  nav {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 8.5rem;
+  }
+  .botaoContato {
+    display: none;
+  }
+  .inicio {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainBG {
+    width: 30rem;
+  }
+  .servicos {
+    width: 100%;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .servicos__lineOne,
+  .servicos__lineTwo,
+  .servicos__lineThree {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .servicos__box {
+    margin-bottom: 50px;
+  }
+  .clientes {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7.3rem;
+    padding: 1rem 3rem;
+  }
+  .contato {
+    flex-direction: column;
+  }
+  .mainTitle {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+  }
+  .mainSubTitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .servicos__title {
+    font-size: 2.4rem;
+    margin-bottom: -30px;
+  }
+  .badge__Text {
+    font-size: 1.5rem;
+  }
+  .clientesTitle {
+    margin-top: 30px;
+    font-size: 2.4rem;
+  }
+  .clientesSubTitle {
+    font-size: 1.8rem;
+  }
+  .clientesHeadline {
+    font-size: 1.5rem;
+  }
+  .clientesBG {
+    width: 30rem;
+  }
+  .contato {
+    justify-content: center;
+
+    width: 100%;
+    margin-top: 30px;
+    width: 100%;
+    padding: 1rem 3rem;
+  }
+  .mapaGoogle {
+    width: 30rem;
+  }
+  .mensagemForm {
+    width: 30rem;
+    height: 166px;
+    padding: 0.7rem;
+    border: solid 0.2rem var(--black);
+    border-radius: 1rem;
+    resize: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  .ondeEstamos {
+    margin-top: 30px;
+    width: 100%;
+    padding: 1rem 3rem;
+  }
+  .localTitle {
+    font-size: 2.4rem;
+  }
+  .localSubTitle {
+    font-size: 1.5rem;
+  }
+  .localBG {
+    width: 30rem;
+  }
 }
